@@ -4,16 +4,16 @@
 
 # Site
 title: Goodnight
-subtitle: 认真生活
-description: 荒废了很多时间，但是任何时候开始努力都不晚，人活一辈子，坦然从心，对自己满意那就好
+subtitle: 此去经年
+description: 年久失修
 author: deiGo
 language: zh-CN 
 timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://deigo.win
-root: /deigo42
+url: http://andokib.com
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -68,12 +68,14 @@ theme: yilia
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-#- type: git
-#  repo: git@git.coding.net:deigo42/deigo42.git,master
+- type: git
+  repo: usrblog@148.70.143.150:blog.git,master
 #- type: git
 #  repo: git@github.com:kingkillua/deigo42.git,master
-- type: git
-  repo: git@47.52.115.35:blog.git,master    #<repository url>
+#- type: git
+#  repo: git@47.52.115.35:blog.git,master    #<repository url>
+#- type: git
+#  repo: git@git.coding.net:deigo42/deigo42.git,master
 
 
 baidusitemap::
